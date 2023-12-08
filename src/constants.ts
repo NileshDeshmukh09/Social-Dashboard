@@ -1,0 +1,1 @@
+export const SWIFT_LOGO = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_vn_oJcZ0fb6M-jjfGt4IdtO6dTynxzWCMG8KDD_x2Q&s";

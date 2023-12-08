@@ -1,0 +1,163 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+}
+
+.logout {
+    cursor: pointer;
+}
+
+.dashboard-body {
+    background: rgba(178, 177, 177, 0.263);
+    padding: 15px;
+}
+
+.swift-logo {
+    height: 30px;
+    width: 80px;
+}
+
+/* dashboardBody.css */
+
+.search-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+}
+
+.search-input::placeholder {
+    font-weight: 700;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+}
+
+.btn:hover,
+.btn:focus {
+    border: 2px solid rgb(78, 172, 91);
+    background-color: rgba(78, 172, 91, 0.413);
+}
+
+
+
+
+.post-btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-body {
+    display: flex;
+
+
+}
+
+/* Post.css */
+
+.post-div {
+    background: white;
+
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.upper-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-subtitle {
+    width: 80%;
+    margin: 0;
+
+}
+
+.post-subtitle {
+    color: grey;
+}
+
+.bookmark-icon {
+    font-size: 24px;
+}
+
+.bookmark-icon:hover {
+    cursor: pointer;
+}
+
+.active {
+    color: rgb(59, 181, 59);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    ;
+}
+
+.no-posts {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+
+}
+
+.no-posts p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .post-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post-btns {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .btn {
+        width: 150px;
+        font-size: 13px;
+
+    }
+
+    .search-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .no-posts {
+        height: 250px;
+    }
+}
